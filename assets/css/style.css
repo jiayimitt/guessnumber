@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+.container {
+    width: min(100% - 30px, 1200px);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+/* Basic page container */
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    background-color: #ff69b4;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+:root {
+    --app-black-background: #1e1e1e;
+    --app-green-color: #0ae448;
+    --app-white-color: #ebe6e6;     
+}
+
+  
+  .game-container {
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .instructions {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .status {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  .status p {
+    margin: 10px 0;
+  }
+
+  .feedback {
+    width: 70%;
+    padding: 3px;
+    font-size: 16px;
+    border: 2px solid #f2eded;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto; 
+  }
+  
+  .game-controls {
+    margin: 20px 0 0 0;
+  }
+
+  .game-controls p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  
+  .guess-input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff4790;
+  }
+  
